@@ -8,6 +8,8 @@ Based on the [weather-phat.py](https://github.com/pimoroni/inky/blob/master/exam
 script provided by Pimoroni. Additional documentation can be found
 [here](https://learn.pimoroni.com/article/getting-started-with-inky-phat).
 
+![What it looks like](preview.jpg)
+
 ## Prequisites
 
 - [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/)
