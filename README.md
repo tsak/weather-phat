@@ -31,7 +31,7 @@ python3 -m pip install -r requirements.txt
 ./weather-phat.py --type phat --simulate --colour yellow
 ```
 
-![Simulation preview](preview.png)
+![Simulation preview](simulation.png)
 
 ## Crontab
 
