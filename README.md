@@ -22,9 +22,25 @@ script provided by Pimoroni. Additional documentation can be found
 ## Install
 
 ```bash
+git clone git@github.com:tsak/weather-phat.git
+cd weather-phat
 python3 -m venv venv
 source venv/bin/activate
 python3 -m pip install -r requirements.txt
+```
+
+## Settings
+
+Copy `.env.example` to `.env` and edit values.
+
+```bash
+CITY=London # City to use for geo location
+COUNTRYCODE=GB # ISO country code for geo location
+WARNING_TEMP=25.0 # Above this value the temparature will be displayed in Yellow or Red
+ADMIRALTY_API_KEY= # Optional: Admiralty API key for UK tide times
+ADMIRALTY_API_STATION_ID=0113 # Admiralty Tide time APIs station ID, e.g. `0113` for London, Tower Bridge
+ADMIRALTY_API_HIGH_TIDE_CORRECTION=0 # Correction in minutes for High tide times, if you local beach is far from a station
+ADMIRALTY_API_LOW_TIDE_CORRECTION=0 # Correction in minutes for Low tide times, if you local beach is far from a station
 ```
 
 ## Local simulation
